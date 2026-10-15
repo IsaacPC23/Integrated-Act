@@ -1,0 +1,25 @@
+Integrated Activity 1 - SARS-CoV-2 genome analysis
+Team members and contributions:
+
+1. Felipe Merida - A00838419
+   Contribution:
+   - FASTA file reading (readFasta, readFastaMultiple) 
+   - KMP string matching (buildPrefixTable, kmpSearch)
+   - functionality 1 (buildPath, findGenes)
+   - integration of the main program (main) and the test cases testReadFasta and testKmpSearch
+
+2. Isaac Pereyra  - A00841493
+   Contribution:
+   - palindrome search (longestPalindrome, reverseComplement,longestDnaPalindrome)
+   - functionality 2 (findPalindromes)
+   - functionality 4 (findGeneOfPosition, compareGenomes)
+   - longest common substring with dynamic programming (longestCommonSubstring)
+   - test cases testLongestPalindrome, testDnaPalindrome and testLongestCommonSubstring
+
+3. Diego Hanger - A00843443
+   Contribution: 
+   - codon data structures (AMINO_TO_CODONS, buildCodonToAmino)
+   - DNA translation (translateSequence)
+   - functionality 3 (findProteins)
+   - test harness (checkResult, testTranslateSequence)
+   - Big O complexity analysis of the whole program

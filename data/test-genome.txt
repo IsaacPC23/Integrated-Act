@@ -1,0 +1,3 @@
+>TEST_GENOME small genome used by the test cases
+ATGGAGAGCCTTACGTAG
+CATGCA
