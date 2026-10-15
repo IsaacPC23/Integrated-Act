@@ -1,25 +1,27 @@
 Integrated Activity 1 - SARS-CoV-2 genome analysis
+
 Team members and contributions:
 
 1. Felipe Merida - A00838419
-   Contribution:
-   - FASTA file reading (readFasta, readFastaMultiple) 
-   - KMP string matching (buildPrefixTable, kmpSearch)
-   - functionality 1 (buildPath, findGenes)
-   - integration of the main program (main) and the test cases testReadFasta and testKmpSearch
 
-2. Isaac Pereyra  - A00841493
-   Contribution:
-   - palindrome search (longestPalindrome, reverseComplement,longestDnaPalindrome)
-   - functionality 2 (findPalindromes)
-   - functionality 4 (findGeneOfPosition, compareGenomes)
-   - longest common substring with dynamic programming (longestCommonSubstring)
-   - test cases testLongestPalindrome, testDnaPalindrome and testLongestCommonSubstring
+Contribution:
+- I worked on reading the FASTA files with readFasta and readFastaMultiple
+- I also made the KMP search using buildPrefixTable and kmpSearch
+- Aloso I handled functionality 1 with buildPath and findGenes
+- And I helped put everything together in main and made the testReadFasta and testKmpSearch tests
+
+2. Isaac Pereyra - A00841493
+
+Contribution:
+- I worked on the palindrome search with longestPalindrome and functionality 2 with findPalindromes
+- I handled functionality 4 using findProteinOfPosition, findGeneName, getCodonStart and compareGenomes
+- Then, I used dynamic programming in longestCommonSubstring to compare the codons
+- I made the testLongestPalindrome and testLongestCommonSubstring tests
 
 3. Diego Hanger - A00843443
-   Contribution: 
-   - codon data structures (AMINO_TO_CODONS, buildCodonToAmino)
-   - DNA translation (translateSequence)
-   - functionality 3 (findProteins)
-   - test harness (checkResult, testTranslateSequence)
-   - Big O complexity analysis of the whole program
+
+Contribution:
+- So, I worked on the codon dictionary AMINO_TO_CODONS and buildCodonToAmino
+- I made translateSequence to translate DNA into amino acids
+- Basically, I handled functionality 3 with findShiftedProtein and findProteins
+- I worked on checkResult and testTranslateSequence, and also analyzed the Big O complexity of the program
